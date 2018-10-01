@@ -1,0 +1,11 @@
+.box {
+  width: 20px;
+  height: 20px;
+  border: solid #000;
+}
+
+.largeBox {
+  width: 40px;
+  height: 40px;
+  border: solid #000;
+}
