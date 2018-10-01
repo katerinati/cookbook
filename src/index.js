@@ -2,6 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import "./friends.js"
 import "./Box.js"
+import "./Likes.js"
 
 var container = document.querySelector("#container");
 var container2 = document.querySelector("#container2");

@@ -8,8 +8,8 @@ class Box extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      size: "small"
-    }
+      size: "small",
+    };
   }
   changeSize() {
     if(this.state.size == "small") {
