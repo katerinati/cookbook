@@ -2,7 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import "./friends.js"
 import "./Box.js"
-import "./Likes.js"
+import Likes from "./Likes"
 
 var container = document.querySelector("#container");
 var container2 = document.querySelector("#container2");
@@ -22,9 +22,12 @@ ReactDOM.render(element2, container2);
 const Component = props => <div>{props.children}</div>;
 
 const el = (
-  <Component>
-  <div>Hello</div>
-  </Component>
+  <div>
+    <Component>
+      <div>Hello</div>
+    </Component>
+    <Likes />
+  </div>
   );
 
 ReactDOM.render(el, container);

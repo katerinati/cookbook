@@ -1,9 +1,5 @@
 import React, { Component } from "react"
-import ReactDOM from "react-dom"
 import "./likes.css"
-
-
-const likesContainer = document.querySelector("#likes-container");
 
 class Likes extends Component {
   constructor(props) {
@@ -30,7 +26,4 @@ class Likes extends Component {
   }
 }
 
-ReactDOM.render(
-  <Likes />,
-  likesContainer
-);
+export default Likes
