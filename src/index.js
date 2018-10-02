@@ -3,6 +3,7 @@ import ReactDOM from "react-dom"
 import "./friends.js"
 import "./Box.js"
 import Likes from "./Likes"
+import Input from "./Input"
 
 var container = document.querySelector("#container");
 var container2 = document.querySelector("#container2");
@@ -27,6 +28,7 @@ const el = (
       <div>Hello</div>
     </Component>
     <Likes />
+    <Input />
   </div>
   );
 
