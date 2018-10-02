@@ -1,0 +1,12 @@
+.rounded {
+  border-radius: 25px;
+  width: 250px;
+  height: 250px;
+  border: solid pink;
+
+}
+.squared {
+  width: 250px;
+  height: 250px;
+  border: solid yellow;
+}
